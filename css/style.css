@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.w-h-5{
+    width: 150px;
+    
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.bg-black-{
+    background-color: rgba(0, 0, 0, 0.424);
+    backdrop-filter: blur(5px);
+}
+.start-25{
+    left: 35%;
+}
+.box{
+    width: 40%;
+    height: 10vh;
+    margin: 1%;
+    
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.letter_box{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: khaki;
+    margin: 0 .5%;
+    animation-name: letter_box_animation;
+    animation-duration: .5s;
+    /* animation-delay: .5s; */
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes letter_box_animation {
+    100%{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.letters{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#letter0{
+    top: 35%;
+    display: none;
+    left: 25%;
+}
+#letter1{
+    display: none;
+    top: 35%;
+    left: 70%;
+}
+#letter2{
+    display: none;
+    top: 50%;
+    left: 48%;
+}
+#letter3{
+    display: none;
+    top: 35%;
+    left: 48%;
+}
+#letter4{
+    display: none;
+    top: 50%;
+    left: 25%;
+}
+#letter5{
+    top: 50%;
+    display: none;
+    left: 70%;
+}
+
+#letters_box{
+    background: url('../img/bg-wood.jpg') no-repeat ;
+    background-size: cover;
+    box-shadow: inset -50px 50px 100px black;
+}
+.bg-red{
+    background-color:rgb(60, 58, 33);
+    box-shadow: inset 0px 0px 100px black;
+}
+#win{
+    z-index: 99;
+}
