@@ -1,4 +1,4 @@
-# Guess_The_Word\
+# Guess_The_Word
 <strong>
   A simple word guessing game with javascript,jQuery,Bootstrap5
 </strong>
