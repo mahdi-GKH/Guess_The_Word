@@ -1,7 +1,7 @@
 # Guess_The_Word\
-<h1>
+<strong>
   A simple word guessing game with javascript,jQuery,Bootstrap5
-</h1>
+</strong>
 <p>
   along with 20 levels in Persian language whose levels are saved in the json file
 </p>
